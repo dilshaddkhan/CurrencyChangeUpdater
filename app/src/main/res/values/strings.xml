@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CurrencyExchange</string>
+    <string name="WIFI">WIFI </string>
+    <string name="MOBILE">MOBILE</string>
+    <string name="NO_INTERNET">No Internet Connection! </string>
+    <string name="INTERNET_INFO">Make sure that wifi or cellular mobile data is turned on, then try again!! </string>
+    <string name="PLEASE_WAIT">Please Wait</string>
+    <string name="LOADING_DATA">Loading data.....</string>
+    <string name="CHECK_INTERNET">Please check Internet Connection</string>
+    <string name="ERROR_API">Please try again.</string>
+    <string name="GET_RATES">Get Rates</string>
+    <string name="CURRENCY_CONVERTER">The Currency Converter!</string>
+    <string name="BASE_SYMBOL">please enter base symbol</string>
+    <string name="SYMBOL1">please enter exchange symbol 1</string>
+    <string name="SYMBOL2">please enter exchange symbol 2</string>
+</resources>
