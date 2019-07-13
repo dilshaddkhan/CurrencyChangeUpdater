@@ -14,7 +14,6 @@ public class MainActivityViewModel extends AndroidViewModel {
 
     private MutableLiveData<Currency> currencyMutableLiveData = new MutableLiveData<>();
     private CurrencyDetailListRepositories currencyDetailListRepositories;
-    private ProgressDialog progressDialog;
 
 
     /*

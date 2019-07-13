@@ -47,9 +47,6 @@ public class CurrencyDetailListRepositories {
         return currencyMutableLiveData;
     }
 
-    /**
-     * this method will hit the api using retrofit and return the LinkInBioPosts from the server
-     */
     private void getLinkInBioPostFromTheServer(String base, String currency1, String currency2) throws Exception {
         try {
             Call<Currency> server_call = apiService.getLatestRate(base, currency1, currency2);
