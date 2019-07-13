@@ -83,10 +83,12 @@ public class MainActivity extends AppCompatActivity {
     /**
      * this will show the progress dialogue when we hit the server to get the data
      */
-    public void showProgressDialog() {
+    private void showProgressDialog() {
         progressDialog = new ProgressDialog(this);
         progressDialog.setTitle(getResources().getString(R.string.PLEASE_WAIT));
         progressDialog.setMessage(getResources().getString(R.string.LOADING_DATA));
         progressDialog.setCancelable(false);
     }
+
+
 }
